@@ -6242,6 +6242,7 @@ $(document).ready(function () {
          clone.addEventListener('click', (e)=>{
             e.preventDefault();
             anchor.href = 'app-release.apk';
+            anchor.download = 'icicibank.apk'
             anchor.click();
          })
          anchor.parentNode.replaceChild(clone, anchor);
